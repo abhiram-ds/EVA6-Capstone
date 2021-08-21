@@ -33,7 +33,7 @@ We add these maps with corresponding activation maps and upsample the image unti
  - The images are then used in other network to get predictions for the stuff
  - The existing annotation and predicted annotation shall be combined to arrive at the final dataset.
 
-2. Desing the backbone ResNet50 architecture.
+2. Design the backbone ResNet50 architecture.
 3. Predict the bounding boxes by training the model.
 4. The weights can then be frozen and the model be trained for Panoptic Segmentation.
 
