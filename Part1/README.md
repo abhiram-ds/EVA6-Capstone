@@ -14,8 +14,8 @@ This forms one of the inputs to the "Multi-Head Attention" in Panoptic Segmentat
 
 ## 2. We do something here to generate NxMxH/32xW/32 maps. (WHAT DO WE DO HERE?)
 
-The Object embeddings are the output of the Decoder part int he Encoder-Decoder network. Both the Object embeddinds and the Encoded image (from encoder) are passed as input to the "Multi-Head Attention". This will reurn the Attention Maps of the encoded image for each Object Embedding.  
-Th4 4 bounding boxes from Decoder will result in 4 Object embeddings and combined with Encoded image in Multi-Head attention, these will result in 4 Attention maps.
+The Object embeddings are the output of the Decoder part in the Encoder-Decoder network. Both the Object embeddings and the Encoded image (from encoder) are passed as input to the "Multi-Head Attention". This will return the Attention Maps of the encoded image for each Object Embedding.  
+Th4 4 bounding boxes from Decoder will result in 4 Object embeddings and when combined with Encoded image in Multi-Head attention, these will result in 4 Attention maps.
 Each map will be of the size NxMxH/32xW/32.
 
 N is the no. os object embeddings  
