@@ -33,8 +33,8 @@ a. Data Collection and preparation
   - The images are then used in other network to get predictions for the stuff
   - The existing annotation and predicted annotation shall be combined to arrive at the final dataset.
 
-b. Design the backbone ResNet50 architecture.
-c. Predict the bounding boxes by training the model.
+b. Design the backbone ResNet50 architecture.  
+c. Predict the bounding boxes by training the model.  
 d. The weights can then be frozen and the model be trained for Panoptic Segmentation.
 
 
