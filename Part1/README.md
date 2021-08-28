@@ -30,7 +30,7 @@ We add these maps with corresponding activation maps and upsample the image unti
 
 a. Data Collection and preparation
   - Gather the Annotated image dataset.
-  - The images are then used in other network to get predictions for the stuff
+  - The images are then used in other network to get predictions for the stuff.
   - The existing annotation and predicted annotation shall be combined to arrive at the final dataset.
 
 b. Design the backbone ResNet50 architecture.  
